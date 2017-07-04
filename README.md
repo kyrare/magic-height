@@ -36,12 +36,10 @@ Html markup:
 Start plugin:
 
 ```js
-$(function(){
-  $(function () {
-          $('.js-demo-container').magicHeight({
-              itemClass: '.js-demo-item'
-          });
-      });
+$(function () {
+    $('.js-demo-container').magicHeight({
+      itemClass: '.js-demo-item'
+    });
 });
 ```
 
