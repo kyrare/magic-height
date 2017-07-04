@@ -1,0 +1,97 @@
+$grid-gutter-width-base: 10px;
+
+@import "../bower_components/bootstrap/scss/mixins";
+@import "../bower_components/bootstrap/scss/bootstrap-grid";
+@import "../bower_components/bootstrap/scss/reboot";
+@import "../bower_components/bootstrap/scss/buttons";
+
+@import "../bower_components/code-prettify/src/prettify.css";
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #414a51;
+    background-color: #f1f4f9;
+    padding: 50px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+h2 {
+    padding: 1em 0 10px;
+    line-height: 1;
+    font-size: 2.25em;
+    margin-bottom: 1.5rem;
+}
+
+.article {
+    padding: 25px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    overflow: hidden;
+
+    h3 {
+        padding-bottom: 0.5em;
+        margin: 0;
+        line-height: 1.2;
+        font-size: 1.25em;
+        color: #4e5e6a;
+    }
+}
+
+.btn-download {
+    padding: 0.75rem 4rem;
+    background-color: #0099cc;
+    border-color: #0099cc;
+
+    &:hover {
+        background-color: #3da1d1;
+        border-color: #3da1d1;
+    }
+}
+
+pre.prettyprint {
+    display: block;
+    line-height: 1.5;
+    padding: 1.5em;
+    margin: 0 auto;
+    max-width: 500px;
+    border: none;
+    text-align: left;
+    font-size: 0.85em;
+    background-color: #2B2B2B;
+
+    .pln {
+        color: #FFC66D;
+    }
+
+    .pun {
+        color: #fff;
+    }
+
+    .kwd {
+        color: #cc7832;
+    }
+
+    .str {
+        color: #6A8759;
+    }
+}
+
+.m-b-1 {
+    margin-bottom: 1rem;
+}
