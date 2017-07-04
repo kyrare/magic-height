@@ -22,7 +22,7 @@
 
     Plugin.prototype = {
         init: function () {
-            this.elements = this.element.find(this.options.child);
+            this.elements = this.element.find(this.options.itemClass);
 
             this._setHeight();
 
@@ -34,7 +34,7 @@
         },
 
         update: function () {
-            this.elements = this.element.find(this.options.child);
+            this.elements = this.element.find(this.options.itemClass);
             this._setHeight();
         },
 

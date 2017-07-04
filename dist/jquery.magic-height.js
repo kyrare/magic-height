@@ -8,7 +8,7 @@
 
     var pluginName = 'magicHeight',
         defaults = {
-            itemClass: '.item',
+            child: 'div',
             line: 'auto',
             resize: true,
             load: true
@@ -70,7 +70,6 @@
             var self = this,
                 set_height = 0,
                 elements_in_line = this._getElementsInLine();
-
 
             this.elements.css('height', '').each(function (i) {
                 var item = $(this),
