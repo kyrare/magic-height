@@ -1,17 +1,18 @@
 {
-  "name": "magic-height",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^3.0.0",
-    "gulp-watch": "^4.3.11"
-  }
+    "name": "magic-height",
+    "version": "1.0.0",
+    "description": "magic auto height for elements",
+    "homepage" : "https://kyrare.github.io/magic-height/",
+    "main": "",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Azovcev Artem <azovcev@likee.ru>",
+    "license": "MIT",
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-rename": "^1.2.2",
+        "gulp-uglify": "^3.0.0",
+        "gulp-watch": "^4.3.11"
+    }
 }

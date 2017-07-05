@@ -9,7 +9,7 @@ bower install magic-height
 ```
 
 ```shell
-npm soon
+npm install magic-height
 ```
 
 #### 1.2. The Basics

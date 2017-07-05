@@ -5,7 +5,7 @@
         "Azovcev Artem <azovcev@likee.ru>"
     ],
     "description": "magic auto height for elements",
-    "main": "",
+    "main": "dist/jquery.magic-height.js",
     "keywords": [
         "jquery-plugin",
         "frontend",
