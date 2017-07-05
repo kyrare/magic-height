@@ -1,5 +1,5 @@
 /**
- * magicHeight 0.0.1
+ * magicHeight 1.0.0
  *
  */
 
