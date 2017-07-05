@@ -1,31 +1,34 @@
 {
-  "name": "magic-height",
-  "authors": [
-    "Azovcev Artem <azovcev@likee.ru>"
-  ],
-  "description": "magic auto height for elements",
-  "main": "",
-  "keywords": [
-    "jquery-plugin",
-    "frontend",
-    "height",
-    "auto-height",
-    "same-height"
-  ],
-  "license": "MIT",
-  "homepage": "",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "jquery": "^2.0.0"
-  },
-  "devDependencies": {
-    "bootstrap": "v4.0.0-alpha.6",
-    "code-prettify": "*"
-  }
+    "name": "magic-height",
+    "authors": [
+        "Azovcev Artem <azovcev@likee.ru>"
+    ],
+    "description": "magic auto height for elements",
+    "main": "",
+    "keywords": [
+        "jquery-plugin",
+        "frontend",
+        "height",
+        "auto-height",
+        "same-height"
+    ],
+    "license": "MIT",
+    "homepage": "",
+    "ignore": [
+        "docs",
+        "src",
+        "node_modules",
+        "bower_components",
+        ".gitignore",
+        "gulpfile.js",
+        "package.json",
+        "README.md"
+    ],
+    "dependencies": {
+        "jquery": "^2.0.0"
+    },
+    "devDependencies": {
+        "bootstrap": "v4.0.0-alpha.6",
+        "code-prettify": "*"
+    }
 }
