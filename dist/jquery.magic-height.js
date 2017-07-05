@@ -8,7 +8,7 @@
 
     var pluginName = 'magicHeight',
         defaults = {
-            child: 'div',
+            itemClass: '.item',
             line: 'auto',
             resize: true,
             load: true
