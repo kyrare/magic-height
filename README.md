@@ -64,3 +64,7 @@ Recalculate height of elements while loading a window
 Recalculate height of elements while changing window size  
 **Default**: `true`  
 **Type**: `boolean`
+
+## Demo
+
+https://kyrare.github.io/magic-height/
