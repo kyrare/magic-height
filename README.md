@@ -5,7 +5,7 @@
 #### 1.1. Installation with Package Managers
 
 ```shell
-bower soon
+bower install magic-height
 ```
 
 ```shell
